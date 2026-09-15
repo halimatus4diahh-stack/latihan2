@@ -1,5 +1,5 @@
     h1 {
-      background-color: #F19DF5;
+      background-color: #FDC9FF;
       color: #fff;
     }
     
@@ -9,4 +9,20 @@
     
     body {
       background-color: #9DD8F5;
+    }
+    
+    /* mengubah div menjadi tampilan kartu */
+    div {
+      background-color: #EBBAE8;
+      width: 250px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(164, 165, 248, 1);
+      text-align: center;
+    }
+    
+    div img {
+      border-radius: 50%;
+      border: 3px solid #9DD8F8;
     }
