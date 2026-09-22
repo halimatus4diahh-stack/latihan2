@@ -1,6 +1,7 @@
     h1 {
       background-color: #FDC9FF;
       color: #fff;
+      text-align: center;
     }
     
     a {
@@ -51,6 +52,7 @@
       padding: 10px;
       /* sudut kotak tumpul*/
       border-radius: 10px;
+      text-align: center;
     }
     
     .tombol-medsos{
