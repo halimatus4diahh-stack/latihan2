@@ -12,7 +12,7 @@
     }
     
     /* mengubah div menjadi tampilan kartu */
-    div {
+    div.kartu-profil {
       background-color: #EBBAE8;
       width: 250px;
       margin: 20px auto;
@@ -22,7 +22,7 @@
       text-align: center;
     }
     
-    div img {
+    div.kartu-profil img {
       border-radius: 50%;
       border: 3px solid #9DD8F8;
     }
@@ -41,4 +41,34 @@
     .navigasi .aktif {
       font-weight: bold;
       color: #2DA8E4;
+    }
+    
+    div.kartu-kontak {
+      background-color: #FFD6F9;
+      width: 80%;
+      margin: 0 auto;
+      /* elemen rata tengah horizontal */
+      padding: 10px;
+      /* sudut kotak tumpul*/
+      border-radius: 10px;
+    }
+    
+    .tombol-medsos{
+      /* agar tombol melebar satu baris penuh */
+      display: block;
+      padding: 10px;
+      /* text rata tengah */
+      text-align: center;
+      text-decoration: none;
+      margin: 8px;
+      /* sudut tumpul */
+      border-radius: 8px;
+    }
+    
+    .wa {
+      background-color: #BAD0FF;
+    }
+    
+    .github {
+      background-color: #FABAFF;
     }
