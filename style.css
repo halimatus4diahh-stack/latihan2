@@ -26,3 +26,19 @@
       border-radius: 50%;
       border: 3px solid #9DD8F8;
     }
+    
+    .navigasi {
+      background-color: #FDC9FF;
+      padding: 10px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    
+    .navigasi a {
+      text-decoration: none;
+    }
+    
+    .navigasi .aktif {
+      font-weight: bold;
+      color: #2DA8E4;
+    }
