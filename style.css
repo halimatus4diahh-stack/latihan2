@@ -52,7 +52,7 @@
       padding: 10px;
       /* sudut kotak tumpul*/
       border-radius: 10px;
-      text-align: center;
+      text-align: center  ;
     }
     
     .tombol-medsos{
@@ -73,4 +73,31 @@
     
     .github {
       background-color: #FABAFF;
+    }
+    
+    .galeri-container{
+      text-align: center;
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    /*item galeri foto*/
+    .galeri-item {
+      width: 50%;
+      max-width: 180px;
+      display: inline-block;
+      margin: 10px;
+      border-radius: 8px;
+      overflow: hidden;
+      background-color: #FDC9FF;
+    }
+    
+    .galeri-item img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .galeri-item p {
+      padding: 0px;
+      line-height: 0.5;
     }
